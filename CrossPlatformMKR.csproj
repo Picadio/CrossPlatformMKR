@@ -7,4 +7,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="CrossPlatformMKR.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="CrossPlatformMKR.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="CrossPlatformMKR.Tests\**" />
+    </ItemGroup>
+
 </Project>
